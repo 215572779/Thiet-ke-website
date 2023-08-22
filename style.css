@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.header__inner {
+    max-width: 2048px;
+    max-height: 100px;
+    width: 100%;
+    margin: -110px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    position: fixed;
+}
+
+.logo {
+    max-width: 2rem;
+    height: 100px;
+    margin-left: 20px;
+    display: block;
+}
+
+.logo :hover {
+    background-color: #f84b2f;
+    box-shadow: 5px 5px 5px rgb(102, 102, 102);
+    margin-top: -3px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.menu__item {
+    margin: 0 1rem;
+    position: relative;
+}
+
+.menu__child {
+    position: absolute;
+    padding: 15px 0;
+    list-style: none;
+    width: fit-content;
+    height: fit-content;
+    margin-left: -350px;
+    display: none;
+}
+
+.menu__child a {
+    padding: 15px 61px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu__child-list {
+    position: absolute;
+    list-style: none;
+    width: fit-content;
+    height: fit-content;
+    margin-left: -300px;
+    padding: 16px 0;
+    display: none;
+}
+
+.menu__child-list li a {
+    padding: 15px 61px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu :hover .menu__child {
+    display: flex;
+    background-color: #f84b2f;
+    box-shadow: 1px 1px 1px rgb(102, 102, 102);
+    margin-top: -10px;
+}
+
+.menu__child :hover .menu__child-list {
+    display: flex;
+    background-color: #f84b2f;
+    box-shadow: 1px 1px 1px rgb(102, 102, 102);
+    margin-top: 17px;
+    margin-left: -320px;
+}
+
+.menu__link {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    padding: 2.3rem;
+}
+
+.menu :hover {
+    background-color: #f84b2f;
+    box-shadow: 5px 5px 5px rgb(102, 102, 102);
+    margin-top: -3px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.dangnhap {
+    background-color: rgb(211, 105, 211);
+    height: 50px;
+    width: fit-content;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px 25px;
+    margin: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.dangnhap:hover {
+    background-color: #f84b2f;
+    transition: 0.4s;
+    box-shadow: 4px 4px 4px rgb(11, 11, 11);
+    margin-top: 8px;
+}
+
+.banner {
+    max-width: 2048px;
+    max-height: 600px;
+    width: 1200px;
+    height: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.underline {
+    width: 1500px;
+    height: 2px;
+    margin-top: 78px;
+    margin-left: 200px;
+    margin-right: 60px;
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+
+.product {
+    margin-left: 50px;
+    height: fit-content;
+    padding: 10px 105px;
+    width: 1590px;
+}
+
+.text__bold {
+    font-weight: 700;
+    font-size: 25px;
+    float: left;
+}
+
+.product__item {
+    float: left;
+    background-color: #2ff1f8;
+    width: 250px;
+    height: 300px;
+    padding: 16px 16px;
+    margin: 15px 15px;
+    border-radius: 10px 10px;
+}
+
+.product__item :hover {
+    box-shadow: 10px 10px 10px rgb(66, 65, 65);
+    transition: 0.4s;
+    margin-top: 5px;
+    margin-bottom: 21px;
+    background-color: #fff;
+}
+
+.image {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px 10px;
+}
+
+.name__item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    color: #A52A2A;
+    margin-top: 15px;
+    height: 40px;
+}
+
+.footer {
+    clear: both;
+    height: 430px;
+    background-color: rgb(8, 8, 8);
+    width: 1885px;
+    border-radius: 5px 5px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+
+.menu__footer {
+    float: left;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 155px;
+    margin-top: 30px;
+}
+
+.menu__footer__veRM5S {
+    float: right;
+    width: 600px;
+    height: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 170px;
+    margin-top: 30px;
+}
+
+.menu__footer__margin-left {
+    margin-left: 50px;
+}
+
+.footer__inner {
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer__info {
+    clear: both;
+    width: 1560px;
+    height: 160px;
+    margin-left: 155px;
+    margin-right: 100px;
+}
